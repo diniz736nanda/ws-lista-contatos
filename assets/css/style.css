@@ -2,7 +2,7 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 header{
-    background-color:  #162b7b;
+    background-color:  rgb(231, 199, 16);
     padding: 20px 0;
 }
 header .container{
@@ -18,7 +18,7 @@ header figure img{
     max-width: 120px;
 }
 header h1{
-    color: white;
+    color: black;
     font-size: 35px;
     margin-top: 10px;
     font-weight: 600;
@@ -32,7 +32,7 @@ main section{
     padding: 100px 40px;
 }
 .secaoFormulario{
-    background-color:  #162b7b;
+    background-color:  rgb(231, 199, 16);
 }
 .secaoFormulario__formulario{
     display: flex;
