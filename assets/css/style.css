@@ -83,7 +83,7 @@ main section{
     background-repeat: no-repeat;
     border: 2px solid  #de4b09 ;
     border-radius: 100%;
-    background-color:  hsl(0deg 95% 44% / 5%);
+    background-color:  #db06060d;
     cursor: pointer;
 }
 .secaoListaContatos__lista li h2{
@@ -95,6 +95,38 @@ main section{
 }
 .secaoListaContatos__lista li span{
 
+}
+
+@media screen and (min-width: 768px){
+
+    /* header{
+        height: 50px;
+        height: 15vh;
+        justify-content: center;
+    } */
+    .container{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .secaoFormulario__formulario :-ms-input-placeholder{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .secaoFormulario__formulario{
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    .secaoListaContatos{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    
 }
 
 
